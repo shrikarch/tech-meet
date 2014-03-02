@@ -1,0 +1,174 @@
+/* CUSTOM STYLESHEET */
+
+
+@media only screen and (max-width: 40em) { 
+    $font-stack:serif;
+    .formPad {
+        padding: 0em 1.5em 0em 1.5em; }
+    .left{ text-align:center;}
+    .speakerInfo{
+        .eachS{
+            border-bottom:1px dotted #ccc;
+            padding-top:2em;
+            padding-bottom:2em;
+        }
+        h5,h6,p{
+            text-align:center;
+        }
+        .centering{align-content:center}
+    }
+    .whoWhat{
+        h3,p{text-align:center;}}
+    .topBanner{
+            img{
+                
+                margin-top:5em; }
+        }
+} 
+// Medium screens
+@media only screen and (min-width: 40.063em) { 
+    $font-stack:sans-serif;
+    .formPad {
+        padding: 0em 2em 0em 1.5em; }
+    .topBanner{
+            img{
+                width:70%; 
+                height:70%;
+                margin-top:5em; }
+        }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    $font-stack:sans-serif;
+    .formPad {
+        padding: 0em 2em 0em 1.5em; }
+    .topBanner{
+            img{
+                width:70%; 
+                height:70%;
+                margin-top:5em; }
+        }
+}
+
+// Large screens
+@media only screen and (min-width: 64.063em) { 
+    $font-stack:'Museo-slab',sans-serif;
+    .left{
+        text-align:right;
+        .topBanner{
+            img{
+                width:70%; 
+                height:70%;
+                margin-top:5em; }
+        }
+    } 
+} 
+
+
+
+
+body{
+    background:#1c1d1f;
+}
+
+@font-face {
+    font-family: 'Museo-slab';
+    src: url('../fonts/Museo_Slab_500_2-webfont.eot');
+    src: url('../fonts/Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Museo_Slab_500_2-webfont.woff') format('woff'),
+         url('../fonts/Museo_Slab_500_2-webfont.ttf') format('truetype'),
+         url('../fonts/Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+$wColor:#fff;
+$lGrey:#474747;
+$font-stack:'Museo-slab',sans-serif;
+
+p,h1,h2,h3,h4,h5,h6{ 
+    color:$wColor;
+    font-family:$font-stack;
+}
+p{
+    font-size:0.85em;
+}
+h6{
+    color:#666;
+}
+
+.sectionPadding{
+    padding:3em 0em 3em 0em;
+}
+.shw{display:block;}
+.hid{display:none;}
+.button{font-family:$font-stack;}
+.bottomBorder{
+    border-bottom:1px solid $lGrey;
+    padding-bottom:5em;
+}
+.bottomBor{
+    border-bottom:1px solid $lGrey;
+}
+
+.topBanner{
+    img{
+        width:70%; 
+        height:70%;
+        margin-top:5em; }
+}
+.sliderUl{height:20em;}
+.slidingHead{
+    p {
+        margin-top:2em;
+        font-size:3em;
+        color:#fff;
+        font-family:$font-stack;
+        line-height:1em;
+        font-smoothing:antialiased;
+        -webkit-font-smoothing:antialiased;
+        -moz-font-smoothing:antialiased;
+        
+    } }
+
+.founders-slider p{
+    font-size:0.75em;
+}
+.justiCenter{
+    text-align:left;
+    padding:0em 1.3em;
+    
+}
+.speakerInfo{
+    text-align:left;
+}
+.imgPadding{
+    padding:2em 2em;
+}
+
+
+.timeline{
+    img{
+        width:60%;
+        height:60%;
+    }
+}
+.priceTables{
+    margin:2em 0em;
+}
+.dynamicNum{
+    text-align:center;
+    h1{ color:$lGrey }
+}
+.footer2{
+    text-align:center;
+    color:$lGrey;
+    .aboutMe{
+        color:$lGrey;
+    }
+}
+.founders-slider p{
+    font-size:0.75em;
+}
+.sInfo{
+    margin-top:1em;
+}    
